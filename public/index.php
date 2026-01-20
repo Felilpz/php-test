@@ -38,21 +38,37 @@
         </div>
         <div class="bloco2">
             <h1>Dados do Formulário</h1>
-            <div class="blocoFormulario">
-                <form action="./form.php" method="post">
-                    <div class="blocoTexto">
-                        <input type="text" name="name" id="nome" placeholder="Nome">
-                    </div>
-                    <div class="blocoTexto">
-                        <input type="text" name="mail" id="email" placeholder="Email">
-                    </div>
-                    <div class="blocoTexto">
-                        <input type="textarea" name="textarea" id="textarea" placeholder="Descricao">
-                    </div>
-                    <div class="button">
-                        <input type="submit" value="Enviar" class="buttonEnviar">
-                    </div>
-                </form>
+            <div class="blocoFormulario2">
+                <div id="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <p>Número</p>
+                                </th>
+                                <th scope="col">
+                                    <p>Nome</p>
+                                </th>
+                                <th scope="col">
+                                    <p>Email</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>00</p>
+                                </td>
+                                <td>
+                                    <p>Luiz</p>
+                                </td>
+                                <td>
+                                    <p>luiz@farmes.com.br</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
